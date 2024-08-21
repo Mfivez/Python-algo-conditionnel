@@ -15,6 +15,7 @@ else:
 verif = (student_result >= 10)
 
 if verif:
+
     print ('reussi')
 else:
     print('raté')

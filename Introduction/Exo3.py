@@ -12,3 +12,4 @@ print("5.",(A < B) or C) # True
 print("6.",not(A + B) != 12) # True
 print("7.", ((B == 5) or ( (E > 10) and (A < 8) ) )) # False
 print("8. ", ( ( ( ( B == 5 ) or ( (E > 10) and (A < 8) ) ) or (A < B) or C) and C )) # False
+
