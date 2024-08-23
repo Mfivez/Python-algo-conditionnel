@@ -7,19 +7,30 @@
 # mais non divisible par 100. Ou si elle est
 # divisible par 400.
 
-text = input("Une année : ")
+# text = input("Une année : ")
 
-if text.isdigit():
-    annee = int(text)
+# if text.isdigit():
+#     annee = int(text)
 
-    est_bissextile = (annee % 4 == 0 and annee % 100 != 0) or annee % 400 == 0
+#     est_bissextile = (annee % 4 == 0 and annee % 100 != 0) or annee % 400 == 0
 
-    if est_bissextile:
-        print(f"L'année {annee} est bissextile !")
-    else:
-        msg = f"L'année {annee} n'est pas bissextile !"
-        print(msg)
+#     if est_bissextile:
+#         print(f"L'année {annee} est bissextile !")
+#     else:
+#         msg = f"L'année {annee} n'est pas bissextile !"
+#         print(msg)
+# else:
+#     print("Valeur erronée !")
+
+
+
+annee = int(input("Une année : "))
+
+est_bissextile = (annee % 4 == 0 and annee % 100 != 0) or annee % 400 == 0
+
+if est_bissextile:
+    print(f"l'année {annee} est bissextile")
 else:
-    print("Valeur erronée !")
+    print(f"l'année {annee} n'est pas bissextile")
 
 
